@@ -1,5 +1,5 @@
 FROM node:9.3.0
-MAINTAINER Viet Nguyen <vietnh@gemvietnam.com>
+MAINTAINER Viet Nguyen <hongviet119@gmail.com>
 
 # Add backports
 RUN echo "deb http://http.debian.net/debian jessie-backports main" >> /etc/apt/sources.list
