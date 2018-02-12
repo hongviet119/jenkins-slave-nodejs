@@ -13,6 +13,7 @@ RUN mkdir /var/run/sshd && adduser --quiet jenkins && echo "jenkins:jenkins" | c
 RUN npm install -g gulp && npm install -g bower
 
 ENV CI=true
+
 EXPOSE 22
 
 CMD ["/usr/sbin/sshd", "-D"]
